@@ -99,7 +99,8 @@ OLA tested this and did not like it. First, the conda installation is a bit mess
 We can probably ignore this for now.
 
 NOTE: The same authors seem to have previously made a program called PredictHaplo that we can probably also safely ignore: https://github.com/cbg-ethz/PredictHaplo
-*KA: not so sure, in this paper PredictHaplo comes out as the most accurate (perhaps with the exception of CliqueSNV): https://www.sciencedirect.com/science/article/pii/S1567134820301088*
+
+*KA: not so sure, in this paper PredictHaplo comes out as the most accurate (perhaps with the exception of CliqueSNV): https://www.sciencedirect.com/science/article/pii/S1567134820301088 - I suggest we pull out PredictHaplo as a separate program and test it*
 
 ## Haphpipe
 
