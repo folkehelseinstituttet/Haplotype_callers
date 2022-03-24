@@ -43,6 +43,7 @@ Freebayes actually works and has only minimal bugs and installation issues. It i
 
 `--limit-coverage N` : Does downsampling to N coverage. This might be useful for high-coverage samples from amplicon sequencing etc.
 
+*KA: would be nice if we could translate the output vcf to individual fasta files with frequency like Clique-SNV. @Ola: suggestions?*
 
 ## Savage / Haploconduct
 De novo caller
