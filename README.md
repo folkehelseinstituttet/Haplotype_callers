@@ -62,3 +62,9 @@ KA tested on HCV-bait seq - did it work?
 OLA tested this and did not like it. First, the conda installation is a bit messed up and you will have to manually install additional packages like samtools. Secondly, I only tried the amplicon-type analysis and it is broken and only outputs empty files. I have posted about this in an issue on their github: (https://github.com/cbg-ethz/shorah/issues/83).
 
 We can probably ignore this for now.
+
+## V-phaser 2
+
+**URL**: https://www.broadinstitute.org/viral-genomics/v-phaser-2
+
+OLA tested this previously. I don't recall much about it except that I had a bit of trouble and ended up not using the results. Need more information
