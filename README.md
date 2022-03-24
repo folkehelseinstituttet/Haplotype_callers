@@ -59,6 +59,8 @@ De novo caller
 
 **URL**: https://scholar.harvard.edu/jbaaijens/software/vg-flow
 
+**Paper**: https://www.biorxiv.org/content/10.1101/645721v3.full
+
 ## V-phaser 2
 
 **URL**: https://www.broadinstitute.org/viral-genomics/v-phaser-2
