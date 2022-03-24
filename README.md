@@ -1,10 +1,13 @@
 # Haplotype_callers
 
 ## Clique-SNV
-https://github.com/vtsyvina/CliqueSNV
+**URL** : https://github.com/vtsyvina/CliqueSNV
 
-Work in progress to test this on HCV bait enrich sequences
+**Input**: bam file + reference
 
+**Output**: complete haplotype sequences with frequency (fasta and json).
+
+*Work in progress to test this on HCV bait enrich sequences - sensitive to trimming - sensitive to choice of reference aligner (e.g. bowtie2 vs. tanoti) - highly sensitive to repeated reads - that should be removed (unless strict amplicons such as SC2*
 
 ## Freebayes
 **URL** : https://github.com/freebayes/freebayes
