@@ -114,6 +114,12 @@ predicthaplo --ref ${ICTVdir}3a_D17763.fa --sam bwa_alignedReads.sam --prefix pr
 *KA: easy install, but likely some bug in program*
 
 ```
+After parsing the reads in file bwa_alignedReads.sam: average read length= 261.017 26089
+First read considered in the analysis starts at position 78. Last read ends at position 9900
+There are 26089 reads
+Median of read lengths: 257.000
+Local window size: 179
+Minimum overlap of reads to local analysis windows: 152
 Segmentation fault (core dumped)
 ```
 *also reported by others: http://seqanswers.com/forums/showthread.php?t=47783 and https://github.com/cbg-ethz/PredictHaplo/issues/1 and not solved by authors of program*
