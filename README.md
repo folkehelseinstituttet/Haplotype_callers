@@ -61,9 +61,11 @@ De novo caller
 
 ## Haphpipe
 
-pipeline built specifically for virus
+Complete pipeline built specifically for virus.
 
 **URL**: https://gwcbi.github.io/haphpipe_docs/
+
+*KA: tested - not really maintained, integrated clique-snv in pipeline: https://gwcbi.github.io/haphpipe_docs/hp_haplotype/#cliquesnv
 
 ## V-phaser 2
 
@@ -82,6 +84,8 @@ Aligner that attempts to reconstruct viral quasispecies by looking at all varian
 Quasispecies assembler that claims to also find indels. Not tested.
 
 **URL**: https://github.com/cbg-ethz/haploclique
+
+*not maintained... since 2017*
 
 ## Pehaplo
 
