@@ -59,7 +59,6 @@ De novo caller
 
 **URL**: https://scholar.harvard.edu/jbaaijens/software/vg-flow
 
-
 ## V-phaser 2
 
 **URL**: https://www.broadinstitute.org/viral-genomics/v-phaser-2
@@ -80,13 +79,6 @@ Quasispecies assembler that claims to also find indels. Not tested.
 
 *not maintained... since 2017*
 
-## Haphpipe
-
-Complete pipeline built specifically for virus.
-
-**URL**: https://gwcbi.github.io/haphpipe_docs/
-
-*KA: briefly tested - not really maintained, integrated clique-snv in pipeline: https://gwcbi.github.io/haphpipe_docs/hp_haplotype/#cliquesnv - but also PredictHaplo - see under Shorah*
 
 ## Pehaplo
 
@@ -105,3 +97,11 @@ OLA tested this and did not like it. First, the conda installation is a bit mess
 We can probably ignore this for now.
 
 NOTE: The same authors seem to have previously made a program called PredictHaplo that we can probably also safely ignore: https://github.com/cbg-ethz/PredictHaplo
+
+## Haphpipe
+
+Complete pipeline built specifically for virus. Not a specific caller - but a wrapper of programs for haplotype reconstruction.
+
+**URL**: https://gwcbi.github.io/haphpipe_docs/
+
+*KA: briefly tested - not really maintained, integrated clique-snv in pipeline: https://gwcbi.github.io/haphpipe_docs/hp_haplotype/#cliquesnv - but also PredictHaplo - see under Shorah*
