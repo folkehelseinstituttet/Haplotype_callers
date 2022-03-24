@@ -25,6 +25,9 @@ freebayes -f reference.fasta --ploidy 1 --use-best-n-alleles 3 --min-alternate-c
 
 Freebayes actually works and has only minimal bugs and installation issues. It is not the fastest program, but it can be parallelised (details on their github page). Also, you can set it to only find the top N haplotypes. (We will rarely need to find a huge number of haplotypes in a sample?) Also, setting minimum threshold on number of reads / fraction of reads to be considered as a variant and not just noise is importan for runtime. Freebayes CAN discover indels and complex type mutations. It is even fairly accurate for homopolymer detection. The VCF file will have a LOT of information about depth, quality, mapping statistics etc, and as always all flags are explained in the file header.
 
+*KA: would be nice if we could translate the output vcf to individual fasta files with frequency like Clique-SNV. @Ola: suggestions?*
+
+
 **Important parameters**:
 
 `--ploidy N` : Although most of our organisms are haploid, it seems setting ploidy to 1 means you only get 1 ALT allele. I need to experiment more with this, but for now leave the ploidy at default.
@@ -43,7 +46,6 @@ Freebayes actually works and has only minimal bugs and installation issues. It i
 
 `--limit-coverage N` : Does downsampling to N coverage. This might be useful for high-coverage samples from amplicon sequencing etc.
 
-*KA: would be nice if we could translate the output vcf to individual fasta files with frequency like Clique-SNV. @Ola: suggestions?*
 
 ## Savage / Haploconduct
 
@@ -59,6 +61,9 @@ De novo caller
 
 ## Haphpipe
 
+pipeline built specifically for virus
+
+**URL**: https://gwcbi.github.io/haphpipe_docs/
 
 ## V-phaser 2
 
