@@ -100,7 +100,23 @@ We can probably ignore this for now.
 
 NOTE: The same authors seem to have previously made a program called PredictHaplo that we can probably also safely ignore: https://github.com/cbg-ethz/PredictHaplo
 
+## PredictHaplo
+
+Same team as Shorah
+
+**Example commandline**:
+```
+predicthaplo --ref ${ICTVdir}3a_D17763.fa --sam bwa_alignedReads.sam --prefix predicthaplo_
+```
+
 *KA: not so sure, in this paper PredictHaplo comes out as the most accurate (perhaps with the exception of CliqueSNV): https://www.sciencedirect.com/science/article/pii/S1567134820301088 - I suggest we pull out PredictHaplo as a separate program and test it*
+
+*KA: easy install, but likely some bug in program*
+
+```
+Segmentation fault (core dumped)
+```
+*also reported by others: http://seqanswers.com/forums/showthread.php?t=47783 and https://github.com/cbg-ethz/PredictHaplo/issues/1 and not solved by authors of program*
 
 ## Haphpipe
 
