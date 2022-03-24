@@ -46,28 +46,19 @@ Freebayes actually works and has only minimal bugs and installation issues. It i
 *KA: would be nice if we could translate the output vcf to individual fasta files with frequency like Clique-SNV. @Ola: suggestions?*
 
 ## Savage / Haploconduct
+
+**URL**: https://github.com/HaploConduct/HaploConduct
+
 De novo caller
-KA tested on HCV-bait seq - did it work?
+
+*KA tested on HCV-bait seq - did it work?*
 
 ## Vg-flow
 
+**URL**: https://scholar.harvard.edu/jbaaijens/software/vg-flow
 
 ## Haphpipe
 
-
-## Pehaplo
-
-## Shorah
-
-**URL**: http://cbg-ethz.github.io/shorah/
-
-**Paper**: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-119
-
-OLA tested this and did not like it. First, the conda installation is a bit messed up and you will have to manually install additional packages like samtools. Secondly, I only tried the amplicon-type analysis and it is broken and only outputs empty files. I have posted about this in an issue on their github: (https://github.com/cbg-ethz/shorah/issues/83).
-
-We can probably ignore this for now.
-
-NOTE: The same authors seem to have previously made a program called PredictHaplo that we can probably also safely ignore: https://github.com/cbg-ethz/PredictHaplo
 
 ## V-phaser 2
 
@@ -86,3 +77,21 @@ Aligner that attempts to reconstruct viral quasispecies by looking at all varian
 Quasispecies assembler that claims to also find indels. Not tested.
 
 **URL**: https://github.com/cbg-ethz/haploclique
+
+## Pehaplo
+
+**URL**:https://github.com/chjiao/PEHaplo
+
+*Briefly tested by KA, do not incorporate Q-scores (flat fasta from reads), not maintained*
+
+## Shorah
+
+**URL**: http://cbg-ethz.github.io/shorah/
+
+**Paper**: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-119
+
+OLA tested this and did not like it. First, the conda installation is a bit messed up and you will have to manually install additional packages like samtools. Secondly, I only tried the amplicon-type analysis and it is broken and only outputs empty files. I have posted about this in an issue on their github: (https://github.com/cbg-ethz/shorah/issues/83).
+
+We can probably ignore this for now.
+
+NOTE: The same authors seem to have previously made a program called PredictHaplo that we can probably also safely ignore: https://github.com/cbg-ethz/PredictHaplo
