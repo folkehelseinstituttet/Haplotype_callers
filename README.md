@@ -68,3 +68,9 @@ We can probably ignore this for now.
 **URL**: https://www.broadinstitute.org/viral-genomics/v-phaser-2
 
 OLA tested this previously. I don't recall much about it except that I had a bit of trouble and ended up not using the results. Need more information
+
+## QuRe
+
+**URL**: https://sourceforge.net/projects/qure/
+
+Aligner that attempts to reconstruct viral quasispecies by looking at all variants. Not tested.
