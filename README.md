@@ -53,3 +53,12 @@ KA tested on HCV-bait seq - did it work?
 
 ## Pehaplo
 
+## Shorah
+
+**URL**: http://cbg-ethz.github.io/shorah/
+
+**Paper**: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-119
+
+OLA tested this and did not like it. First, the conda installation is a bit messed up and you will have to manually install additional packages like samtools. Secondly, I only tried the amplicon-type analysis and it is broken and only outputs empty files. I have posted about this in an issue on their github: (https://github.com/cbg-ethz/shorah/issues/83).
+
+We can probably ignore this for now.
