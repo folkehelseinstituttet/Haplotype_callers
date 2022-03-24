@@ -74,3 +74,9 @@ OLA tested this previously. I don't recall much about it except that I had a bit
 **URL**: https://sourceforge.net/projects/qure/
 
 Aligner that attempts to reconstruct viral quasispecies by looking at all variants. Not tested.
+
+## HaploClique
+
+Quasispecies assembler that claims to also find indels. Not tested.
+
+**URL**: https://github.com/cbg-ethz/haploclique
