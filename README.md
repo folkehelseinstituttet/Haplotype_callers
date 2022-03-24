@@ -24,7 +24,7 @@ Freebayes actually works and has only minimal bugs and installation issues. It i
 
 **Important parameters**:
 
-`--ploidy N` : Set to 1 for most of our organisms
+`--ploidy N` : Although most of our organisms are haploid, it seems setting ploidy to 1 means you only get 1 ALT allele. I need to experiment more with this, but for now leave the ploidy at default.
 
 `--pooled-continuous` : Can be turned on to do frequency-based haplotype calling rather than literal directly from the reads. This requires strict quality thresholds to be set.
 
