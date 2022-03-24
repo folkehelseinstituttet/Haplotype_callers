@@ -24,14 +24,21 @@ Freebayes actually works and has only minimal bugs and installation issues. It i
 
 **Important parameters**:
 
---ploidy N : Set to 1 for most of our organisms
---pooled-continuous : Can be turned on to do frequency-based haplotype calling rather than literal directly from the reads. This requires strict quality thresholds to be set.
---use-best-n-alleles N : How many different haplotypes should you allow? Noisy data means you can find many low-frequency, so this can be set for efficiency
---haplotype-length N : The length of haplotypes to be called. This is only 3 by default! To enable haplotype calling this should be massively increased. It can be set at least to 50% of the read length
---min-alternate-fraction N : Minimum fraction of alternate observations to consider. Default is 0.05.
---min-alternate-count N : Minimum number of reads to consider an alt allele. Default is only 2, so should likely be increased for most use cases.
---min-coverage N : Minimum coverage to consider a position at all. Default is 0.
---limit-coverage N : Does downsampling to N coverage. This might be useful for high-coverage samples from amplicon sequencing etc.
+`--ploidy N` : Set to 1 for most of our organisms
+
+`--pooled-continuous` : Can be turned on to do frequency-based haplotype calling rather than literal directly from the reads. This requires strict quality thresholds to be set.
+
+`--use-best-n-alleles N` : How many different haplotypes should you allow? Noisy data means you can find many low-frequency, so this can be set for efficiency
+
+`--haplotype-length N` : The length of haplotypes to be called. This is only 3 by default! To enable haplotype calling this should be massively increased. It can be set at least to 50% of the read length
+
+`--min-alternate-fraction N` : Minimum fraction of alternate observations to consider. Default is 0.05.
+
+`--min-alternate-count N` : Minimum number of reads to consider an alt allele. Default is only 2, so should likely be increased for most use cases.
+
+`--min-coverage N` : Minimum coverage to consider a position at all. Default is 0.
+
+`--limit-coverage N` : Does downsampling to N coverage. This might be useful for high-coverage samples from amplicon sequencing etc.
 
 
 ## Savage / Haploconduct
