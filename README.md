@@ -59,13 +59,6 @@ De novo caller
 
 **URL**: https://scholar.harvard.edu/jbaaijens/software/vg-flow
 
-## Haphpipe
-
-Complete pipeline built specifically for virus.
-
-**URL**: https://gwcbi.github.io/haphpipe_docs/
-
-*KA: tested - not really maintained, integrated clique-snv in pipeline: https://gwcbi.github.io/haphpipe_docs/hp_haplotype/#cliquesnv
 
 ## V-phaser 2
 
@@ -87,9 +80,17 @@ Quasispecies assembler that claims to also find indels. Not tested.
 
 *not maintained... since 2017*
 
+## Haphpipe
+
+Complete pipeline built specifically for virus.
+
+**URL**: https://gwcbi.github.io/haphpipe_docs/
+
+*KA: briefly tested - not really maintained, integrated clique-snv in pipeline: https://gwcbi.github.io/haphpipe_docs/hp_haplotype/#cliquesnv - but also PredictHaplo - see under Shorah*
+
 ## Pehaplo
 
-**URL**:https://github.com/chjiao/PEHaplo
+**URL**: https://github.com/chjiao/PEHaplo
 
 *Briefly tested by KA, do not incorporate Q-scores (flat fasta from reads), not maintained*
 
