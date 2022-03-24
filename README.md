@@ -63,6 +63,8 @@ OLA tested this and did not like it. First, the conda installation is a bit mess
 
 We can probably ignore this for now.
 
+NOTE: The same authors seem to have previously made a program called PredictHaplo that we can probably also safely ignore: https://github.com/cbg-ethz/PredictHaplo
+
 ## V-phaser 2
 
 **URL**: https://www.broadinstitute.org/viral-genomics/v-phaser-2
