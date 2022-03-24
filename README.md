@@ -1,5 +1,13 @@
 # Haplotype_callers
 
-# Clique-SNV
+## Clique-SNV
 
-# Freebayes
+## Freebayes
+
+## Savage / Haploconduct
+
+## Vg-flow
+
+## Haphpipe
+
+## Pehaplo
