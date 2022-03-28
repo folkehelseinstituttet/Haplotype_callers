@@ -139,3 +139,10 @@ Complete pipeline built specifically for virus. Not a specific caller - but a wr
 **Input**: BAM file, VCF file and contig name
 
 *This is originally intended for metagenomic purposes, so it might not make sense to use it for viral quasispecies/haplotypes. However, the algorithm seems similar to CliqueSNV - Finding linked SNVs by graph traversal. It seems to be set in a more probabilistic framework rather than pure counting. Undergoing testing by OLA.*
+
+## MetaSNV
+
+Weird SNV caller to be used on metagenomic data...
+
+**URL**: https://github.com/metasnv-tool/metaSNV
+
